@@ -1,0 +1,49 @@
+.row{
+    padding: 0;
+    margin: 0;
+}
+div{
+    background-color: rgb(157, 240,240);
+    text-align:center ;
+    padding: 30px;
+    margin-top: 30px;
+    border: radius 1.5rem;
+}
+@media(min-width: 575px) {
+    
+        #fotodeperfil {
+            position:absolute;
+            height: 250px;
+            width: 250px;
+            background:#E76AFA;
+            -moz-border-radius:125px;
+            -webkit-border-radius:125px;
+            border-radius:  125px;
+            box-shadow: 3px 3px 3px grey;
+            top: 750px;
+            left: 3%;
+            
+
+        }
+    
+    
+    }
+    @media(max-width: 576px) {
+    
+        #fotodeperfil {
+            position:absolute;
+            height:200px;
+            width:200px;
+           background:#E76AFA;
+           -moz-border-radius:100px;
+           -webkit-border-radius:100px;
+            border-radius:100px;
+            box-shadow: 3px 3px 3px grey;
+            top: 780px;
+            left: 33%;
+            
+
+        }
+    
+    
+    }
